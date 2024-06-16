@@ -1,24 +1,23 @@
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark text color */
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 h1 {
   font-size: 60px;
   text-align: center;
-  color: darkblue; /* Blue heading color */
+  color: darkblue;
 }
 
 form {
   float: left;
-  width: 30%; /* Adjust the width as needed */
+  width: 25%;
   margin: 20px;
   padding: 20px;
-  background-color: #fff; /* White background for the form container */
-  box-shadow: 0 0 10px rgba(44, 8, 102, 0.1); /* Shadow effect */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(44, 8, 102, 0.1);
+  border-radius: 10px;
 }
 
 label {
@@ -31,56 +30,56 @@ select {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-  box-sizing: border-box; /* Include padding and border in width calculation */
+  box-sizing: border-box;
 }
 
 table {
   float: right;
-  width: 65%; /* Adjust the width as needed */
+  width: 70%;
   margin: 20px;
-  border-collapse: collapse; /* Collapse table borders */
+  border-collapse: collapse;
 }
 
 th,
 td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #ddd; /* Light gray border */
-  border-radius: 10px; /* Rounded corners */
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 th {
-  background-color: darkblue; /* Blue header background */
-  color: #fff; /* White text color */
+  background-color: darkblue;
+  color: #fff;
 }
 
 tbody {
-  background-color: #fff; /* White background for table body */
+  background-color: #fff;
 }
 
 button {
-  background-color: darkmagenta; /* Dark magenta background */
-  color: #fff; /* White text color */
+  background-color: darkmagenta;
+  color: #fff;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #8b008b; /* Darker magenta on hover */
+  background-color: #8b008b;
 }
 
 input[type="submit"] {
-  background-color: darkblue; /* Blue submit button background */
-  color: #fff; /* White text color */
+  background-color: darkblue;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; 
-  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
 }
 
 input[type="submit"]:hover {
-  background-color: #1434c4; /* Darker blue on hover */
+  background-color: #1434c4;
 }
