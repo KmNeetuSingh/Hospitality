@@ -1,4 +1,4 @@
-/* Add this CSS to your index.css file */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0; /* Light gray background */
@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-  font-size:60px;
+  font-size: 60px;
   text-align: center;
-  color:darkblue; /* Blue heading color */
+  color: darkblue; /* Blue heading color */
 }
 
 form {
@@ -17,8 +17,8 @@ form {
   margin: 20px;
   padding: 20px;
   background-color: #fff; /* White background for the form container */
-  box-shadow: 0 0 10px rgba(44, 8, 102, 0.1);
-  border-radius: 2%;
+  box-shadow: 0 0 10px rgba(44, 8, 102, 0.1); /* Shadow effect */
+  border-radius: 10px; /* Rounded corners */
 }
 
 label {
@@ -31,25 +31,26 @@ select {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
 table {
   float: right;
-  width: 45%; /* Adjust the width as needed */
+  width: 65%; /* Adjust the width as needed */
   margin: 20px;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Collapse table borders */
 }
 
 th,
 td {
-  border-radius:12px;
   padding: 10px;
-/* Light gray border */
+  text-align: left;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
 }
 
 th {
-  background-color:darkblue; /* Blue header background */
+  background-color: darkblue; /* Blue header background */
   color: #fff; /* White text color */
 }
 
@@ -58,28 +59,28 @@ tbody {
 }
 
 button {
-  background-color:darkmagenta; 
-  color: #fff;
+  background-color: darkmagenta; /* Dark magenta background */
+  color: #fff; /* White text color */
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  
 }
 
 button:hover {
-  background-color:darkmagenta; 
+  background-color: #8b008b; /* Darker magenta on hover */
 }
+
 input[type="submit"] {
-  background-color: darkblue; /* Green submit button background */
+  background-color: darkblue; /* Blue submit button background */
   color: #fff; /* White text color */
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add smooth transition for background color */
-  border-radius:10px;
+  transition: background-color 0.3s ease; 
+  border-radius: 10px; /* Rounded corners */
 }
 
 input[type="submit"]:hover {
-  background-color: #1434c4; /* Darker green on hover */
+  background-color: #1434c4; /* Darker blue on hover */
 }
